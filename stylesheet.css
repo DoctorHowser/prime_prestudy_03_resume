@@ -17,10 +17,26 @@ li{
     margin-bottom:10px;
 }
 
+#verify{
+    height: 100px;
+    width:  100px;
+    text-align: center;
+    border-radius: 5px;
+    background-color
+}
+.center {
+  height: auto;
+  width: 100px;
+  margin: auto;
+  z-index: 2;
+}
+
 #container{
     width:800px;
     margin:auto;
+    z-index: 1;
 }
+
 #whitespace{
     height:100px;
     width:726px;
