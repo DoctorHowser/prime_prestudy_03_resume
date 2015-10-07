@@ -5,7 +5,7 @@ body {
   background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/ricepaper_v3.png);
 }
 h2{
-    margin: 0 20px 0 20px;
+    margin: 20px 20px 0 20px;
     border-bottom:1px solid;
 }
 ul{
@@ -78,18 +78,17 @@ header {
 }
 figure {
     width: 100px; 
-    height: 100px; 
+    height: 100px;
+    margin: 5px 0 0 5px; 
     overflow: hidden;
 }
  figure img{
     height:140px;
-    width:140px;
+    width:auto;
     display:block;
-    margin: -10px 0 0 -35px;
     border-radius:5px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     position:fixed;
-    overflow:hidden;
 }
 .align{
    margin-left:20px; 
