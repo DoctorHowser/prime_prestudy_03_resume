@@ -19,7 +19,15 @@ li{
     height: 100px;
     width:  100px;
     text-align: center;
+    font-size: large;
     border-radius: 5px;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+#verify:hover{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    transform: rotate(360deg);
 }
 .center {
   height: auto;
@@ -32,6 +40,7 @@ li{
     width:800px;
     margin:auto;
     z-index: 1;
+    display: none;
 }
 #whitespace, header{
     height:100px;
