@@ -3,9 +3,9 @@ $("document").ready(function(){
 	$('.verify').fadeIn();
 	$('.verify').on('click', 'button', function (){
 		clicks++;
-		$('body').append("<div class='verify'></div>")
+		$('body').append("<div class='verify center'></div>")
 		var el = $('body').children().last();
-		el.append("<p >Revealing...try again...</p>");
+		el.append("<p>Revealing...try again...</p>"); 
 		if (clicks === 3) {
 			$(".verify").fadeOut();
 		$(this).closest('body').find('#container').fadeIn();
